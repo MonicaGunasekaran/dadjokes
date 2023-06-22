@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to left bottom, peachpuff,lightcyan,palevioletred) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.container{
+    background-color: rgba(255,255,255,.3);
+    padding:20px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.4);
+    border-radius: 15px;
+    width: 70%;
+    height: 40%;
+    text-align: center;
+    color: #a177a0;
+}
+.heading{
+    font-weight: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 8px 2px rgba(0,0,0,.3);
+    letter-spacing: 2px;
+}
+.joke{
+    margin: 50px;
+    font-size: x-large;
+    font-weight: 300;
+    color: rgb(198, 61, 88);
+}
+.btn{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.5) ;
+    border-color:  rgba(255,255,255,.5) ;
+    color: palevioletred;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: mistyrose;
+}
